@@ -1,0 +1,231 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex>div {
+  margin: 0 1rem 2rem 1rem;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f093fb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+
+.papa {
+  text-align: center;
+}
+
+.mama {
+  text-align: center;
+}
+
+.btn-lg {
+  margin: 20px !important;
+  background-color: palevioletred !important;
+  color: white !important;
+  width: 4cm !important;
+  border-radius: 25px !important;
+  border-color: pink !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  font-size: larger !important;
+}
+
+.text-title{
+  
+  margin-top: 20px;
+  color: #bd0178;
+  font-weight: 550;
+}
+
+
+
+
+.editcard {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.editcard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+
+.editcol {
+  align-self: center !important;
+  align-content: center !important;
+  align-items: center;
+}
+
+.bi-trash-fill {
+  margin: 5px !important;
+  align-self: right !important;
+  align-content: flex-end !important;
+}
+
+.bi-pencil-square {
+  margin: 5px !important;
+  align-self: left !important;
+}
+
+.backgruonds-custom {
+  /* fallback for old browsers */
+  background: #000000;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, #000000, #bd0178);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, #bd0178, #000000)
+}
+.backgruond-custom {
+  /* fallback for old browsers */
+  background: a2d2ff;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, #a2d2ff, #bde0fe,#ffafcc, #ffc8dd, #cdb4db);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, #a2d2ff, #bde0fe,#ffafcc, #ffc8dd, #cdb4db)
+}
+
+@keyframes maybepink {
+  0% {
+    color: #ffe5ec;
+  }
+
+  25% {
+    color: #ffc2d1;
+  }
+
+  50% {
+    color: #ffb3c6;
+  }
+
+  75% {
+    color: #ff8fab;
+  }
+
+  100% {
+    color: #ffb3c6;
+  }
+}
+
+.dechel {
+  animation: maybepink 10s infinite;
+}
+
+.wink-bg{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  font-weight: bold;
+  background: linear-gradient( 45deg, #eaac8b, #e56b6f, #b56576, #6d597a, #355070);
+  background-size: 40%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: wink 10s infinite;
+}
+@keyframes wink {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+}
+
+.gutters-sm {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.mb-3, .my-3 {
+  margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+  background-color: #e2e8f0;
+}
+.h-100 {
+  height: 100%!important;
+}
+.shadow-none {
+  box-shadow: none!important;
+}
+
+.bg-white {
+  background-color: #fff!important;
+}
+.btn-light {
+  color: #1a202c;
+  background-color: #fff;
+  border-color: #cbd5e0;
+}
+.ml-2, .mx-2 {
+  margin-left: .5rem!important;
+}
+
+.card {
+  position: relative; /* กำหนดให้พื้นหลังของการ์ดเป็นตำแหน่งแบบเพื่อให้สามารถควบคุมตำแหน่งของภาพได้ */
+}
+
+.card .img-fluid.img-thumbnail.rounded-circle.border-0.mb-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* กำหนดให้รูปภาพอยู่ด้านหน้า */
+}
+
+.card-title {
+  margin-top: 90px; /* เลื่อนตัวอักษรลงมาเพื่อไม่ให้บังภาพ */
+  position: relative; /* กำหนดให้ตัวหนังสือของ card-title มีตำแหน่งแบบเป็นค่าเริ่มต้น */
+  z-index: 2; /* กำหนดให้ตัวหนังสือของอยู่ข้างหน้า */
+}
